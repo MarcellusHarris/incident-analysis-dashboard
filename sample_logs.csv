@@ -1,0 +1,16 @@
+timestamp,event_type,ip,severity,description
+2025-08-01T10:12:00,Port Scan,192.168.1.5,medium,Detected TCP SYN scan across 200 ports
+2025-08-01T10:15:30,Phishing URL,203.0.113.77,high,Malicious URL detected in email (virus total flagged)
+2025-08-01T10:20:45,Failed Login,192.168.1.20,low,Invalid user attempt detected via SSH
+2025-08-01T11:05:12,Vulnerability,198.51.100.22,high,Outdated SSH version exposed on port 22
+2025-08-01T12:30:00,Port Scan,192.168.1.17,medium,Multi‑protocol scan with nmap detected
+2025-08-01T12:45:10,Threat Intel,203.0.113.124,high,IP flagged as participating in botnet by AbuseIPDB
+2025-08-01T13:05:00,Failed Login,192.168.1.21,medium,Repeated failed login attempts over 5 minutes
+2025-08-01T13:15:30,Phishing URL,198.51.100.99,high,Credential harvesting link identified
+2025-08-01T14:00:00,Vulnerability,192.0.2.45,medium,Unpatched Apache server found on port 80
+2025-08-01T14:15:00,Threat Intel,203.0.113.200,low,IP associated with scanning activity
+2025-08-01T14:30:45,Port Scan,192.168.1.100,low,ICMP ping sweep across internal network
+2025-08-01T15:00:00,Failed Login,203.0.113.17,high,Brute force attack from external IP detected
+2025-08-01T16:10:15,Vulnerability,198.51.100.200,high,Critical RDP vulnerability CVE‑2024‑3270 exploited
+2025-08-01T17:05:30,Phishing URL,192.0.2.10,medium,Suspicious shortened URL found in message
+2025-08-01T17:30:00,Threat Intel,192.0.2.15,medium,AlienVault OTX flagged IP with moderate risk
