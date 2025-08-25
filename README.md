@@ -31,6 +31,18 @@ This project consolidates security alerts and scan outputs from multiple tools i
 
 - `incident_dashboard.py` – main script with input validation and error handling.
 - `sample_logs.csv` – example dataset with simulated incidents.
+- `test_incident_dashboard.py` – unit tests verifying input validation and summary counts.
+- `incident_chart.png` – sample bar chart generated from the dataset.
+
+## Sample output
+
+The following bar chart illustrates a sample incident summary generated from the `sample_logs.csv` dataset:
+
+![Incident Summary Chart](incident_chart.png)
+s
+
+- `incident_dashboard.py` – main script with input validation and error handling.
+- `sample_logs.csv` – example dataset with simulated incidents.
 - `incident_chart.png` – sample output bar chart.
 
 ## Roadmap
